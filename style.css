@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --color-primario: #405D72;
+    --color-secundario: #758694;
+    --color-terciario: #F7E7DC;
+    --color-hover: #FFF8F3; 
+    --fuente-principal: "Rubik", sans-serif; 
+    --fuente-secundaria: "Raleway", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.container-titulo{
+    padding: 5%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--fuente-principal);
+    font-weight: 400;
+}
+
+
+.container-texto{
+    height: 3rem;
+}
+
+.container-botones{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-botones-boton{
+    background-color: var(--color-terciario);
+    border: none;
+    border-radius: 12px;
+    color: var(--color-secundario);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: var(--fuente-secundaria);
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container-botones-boton:hover{
+    background-color: var(--color-hover);
+}
+
+.footer{
+    background-color: var(--color-secundario);
+}
+
+.footer-boton{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.375rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+}

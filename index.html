@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="container-titulo">Encriptador de Texto</h1>
+        <textarea class="container-texto" id="inputText" placeholder="Ingrese el texto acá..."></textarea>
+        <div class="container-botones">
+            <button class="container-botones-boton" onclick="encriptar()">Encriptar</button>
+            <button class="container-botones-boton" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <textarea class="container-texto" id="outputText" placeholder="El texto encriptado aparecerá acá..." readonly></textarea>
+        <div class="container-botones">
+            <button class="container-botones-boton" onclick="copiarTexto()">Copiar</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-boton" href="https://github.com/SanBouza"> <img src="assets/github.png"> Desarrollado por Santiago Bouza</a>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
