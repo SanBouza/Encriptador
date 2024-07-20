@@ -13,7 +13,7 @@ Este proyecto es parte del Alura Challenge ONE Front End, y se trata de un encri
 - CSS
 - JavaScript
 
-## Pruébalo
+## ¡Pruébalo!
 
 Si deseas encriptar tu propio texto puedes acceder al encriptador [aquí](https://sanbouza.github.io/Encriptador/).
 
